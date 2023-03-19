@@ -1,0 +1,96 @@
+.card{
+    margin: 50px auto; 
+        float: none; 
+        margin-bottom: 10px; 
+        box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+    
+}
+
+*{
+    color: #000;
+}
+
+.imga
+{
+    border-radius: 30px;
+    height: 33rem;
+    width: 35rem;
+    display: inline-block;
+}
+
+.login-form{
+    height: 33rem;
+    width: 22rem;
+   display: inline-block;
+   position: absolute;
+}
+
+.heading{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 42px;
+color: #000;
+margin-top: 50px;
+margin-left: 150px;
+}
+
+.Username input
+{   width: 250px;
+    margin-left: 30px;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+.Password input
+{ 
+    margin-left: 30px;
+    width: 250px;  
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 25px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+.Username input:focus
+{   
+    outline: none;
+    border-bottom: 2px solid grey;
+}
+
+.Password input:focus
+{   
+    
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+}
+
+.submitButton{
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.submitButton button{
+    font-family: 'Raleway';
+    font-size: large;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #005bab ;
+    height: 50px;
+    width: 150px;
+    outline: none;
+}
+.SignUp{
+    font-family: 'Raleway';
+    font-size: medium;
+    padding-top: 5px;
+    margin-left: 75px;
+}
